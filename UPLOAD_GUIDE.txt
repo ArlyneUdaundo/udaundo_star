@@ -1,0 +1,20 @@
+GITHUB UPLOAD GUIDE
+
+1. Extract this ZIP.
+2. Open the extracted MediBook_GitHub_Repository folder.
+3. Upload ALL files and folders inside it to your GitHub repository.
+4. Keep the folder structure unchanged.
+5. Do not upload the ZIP itself as the repository source.
+6. The main files should include manage.py, requirements.txt, README.md, fixture.json, medibook/, and clinic/.
+7. Before submission, copy the GitHub repository URL into the Word document.
+
+LOCAL TEST:
+python -m venv .venv
+.venv\Scripts\activate       (Windows)
+source .venv/bin/activate     (macOS/Linux)
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py loaddata fixture.json
+python manage.py runserver
+
+Then open http://127.0.0.1:8000/

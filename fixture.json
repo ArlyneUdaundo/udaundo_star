@@ -1,0 +1,65 @@
+[
+  {
+    "model": "clinic.specialty",
+    "pk": 1,
+    "fields": {
+      "name": "Family Medicine",
+      "slug": "family-medicine"
+    }
+  },
+  {
+    "model": "clinic.specialty",
+    "pk": 2,
+    "fields": {
+      "name": "Pediatrics",
+      "slug": "pediatrics"
+    }
+  },
+  {
+    "model": "clinic.specialty",
+    "pk": 3,
+    "fields": {
+      "name": "Internal Medicine",
+      "slug": "internal-medicine"
+    }
+  },
+  {
+    "model": "clinic.doctor",
+    "pk": 1,
+    "fields": {
+      "full_name": "Dr. Maria Santos",
+      "specialty": 1,
+      "bio": "Warm, practical primary care for adults and families, with preventive health consultations and routine checkups.",
+      "consultation_fee": "650.00",
+      "photo": "doctors/maria_santos.png",
+      "is_accepting": true,
+      "date_created": "2026-10-01T09:00:00Z"
+    }
+  },
+  {
+    "model": "clinic.doctor",
+    "pk": 2,
+    "fields": {
+      "full_name": "Dr. Adrian Cruz",
+      "specialty": 2,
+      "bio": "Patient-centered pediatric care focused on healthy development, common illnesses, and family guidance.",
+      "consultation_fee": "750.00",
+      "photo": "doctors/adrian_cruz.png",
+      "is_accepting": true,
+      "date_created": "2026-10-02T09:00:00Z"
+    }
+  },
+  {
+    "model": "clinic.doctor",
+    "pk": 3,
+    "fields": {
+      "full_name": "Dr. Lea Villanueva",
+      "specialty": 3,
+      "bio": "Evidence-informed internal medicine consultations for adults with a focus on long-term wellness.",
+      "consultation_fee": "900.00",
+      "photo": "doctors/lea_villanueva.png",
+      "is_accepting": false,
+      "date_created": "2026-10-03T09:00:00Z"
+    }
+  }
+]
